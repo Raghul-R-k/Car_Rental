@@ -1,6 +1,11 @@
-from django.urls import path
-from .views import driver_registration
-
-urlpatterns = [
-    path('register-driver/', driver_registration, name='register-driver'),
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from .views import DriverViewset
+ 
+router = DefaultRouter()
+router.register('', DriverViewset, basename='driver')
+app_name ='DriverApp'
+ 
+urlpatterns=[
+    path('', include(router.urls)),
 ]

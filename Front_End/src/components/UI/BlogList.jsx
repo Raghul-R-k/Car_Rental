@@ -88,7 +88,7 @@
       <Col lg="4" md="6" sm="6" className="mb-5">
         <h3>hi</h3>
         <div className="blog__item">
-          <img src={`http://127.0.0.1:8000/blogs/blogs/${imgUrl}`} alt={title} className="w-100" />
+          <img src={`${imgUrl}`} alt={title} className="w-100" />
           <div className="blog__info p-3">
             <Link to={`/blogs/${title}`} className="blog__title">
               {title}
