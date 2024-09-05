@@ -20,15 +20,16 @@ const Routers = () => {
       <Route path="/home" element={<Home />} />
       <Route path="/DriverForm" element={<BecomeDriverForm />} />
       <Route path="/about" element={<About />} />
-      <Route path="/cars" element={<CarTypes />} />
-      <Route path="/carslist" element={<CarsList />} />
+      <Route path="/cars" element={<CarListing />} />
       <Route path="/cars/:slug" element={<CarDetails />} />
       <Route path="/blogs" element={<Blog />} />
       <Route path="/blogs/:slug" element={<BlogDetails />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/Signin" element={<SlidingAuth />} />
-      <Route path="/Signin" element={<SlidingAuth />} />
+      <Route path="/carslist" element={<CarsList />} />
       <Route path="*" element={<NotFound />} />
+      <Route path="*" element={<NotFound />} />
+      
     </Routes>
   );
 };
