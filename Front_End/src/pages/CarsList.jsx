@@ -29,14 +29,14 @@ const CarListing = () => {
               </div>
             </Col>
 
-            {/* {carData.map((item) => (
+            {carData.map((item) => (
               <CarItem item={item} key={item.id} />
-            ))} */}
+            ))}
 
             {/* Render VehicleCard for each vehicle */}
-            {vehicles.map((item) => (
+            {/* {vehicles.map((item) => (
               <VehicleCard item={item} key={item.id} />
-            ))}
+            ))} */}
           </Row>
         </Container>
       </section>

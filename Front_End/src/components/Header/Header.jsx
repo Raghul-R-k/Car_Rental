@@ -73,7 +73,7 @@ const Header = () => {
                   <Link to="/home" className=" d-flex align-items-center gap-2">
                     <i class="ri-car-line"></i>
                     <span>
-                      Rent Car <br /> Service
+                      SRD Cars Rentals & <br /> Services
                     </span>
                   </Link>
                 </h1>
@@ -86,8 +86,8 @@ const Header = () => {
                   <i class="ri-earth-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>India</h4>
-                  <h6>Chennai City, India</h6>
+                  <h4>Chennai</h4>
+                  <h6>Siruseri,Chennai-603103</h6>
                 </div>
               </div>
             </Col>
@@ -98,8 +98,8 @@ const Header = () => {
                   <i class="ri-time-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Sunday to Saturday</h4>
-                  <h6>10am - 7pm</h6>
+                  <h4>No Holidays</h4>
+                  <h6>6am - 7pm</h6>
                 </div>
               </div>
             </Col>

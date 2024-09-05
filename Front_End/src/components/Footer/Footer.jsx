@@ -49,10 +49,10 @@ const Footer = () => {
               </h1>
             </div>
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
+              Rent Car Service is a car rental platform that provides a wide range of vehicles for rent, 
+              from economy to luxury cars, at competitive prices. Our goal is to provide a seamless 
+              car rental experience to our customers, with a focus on convenience, flexibility, and 
+              exceptional customer service.
             </p>
           </Col>
 
@@ -72,12 +72,12 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
               <h5 className="footer__link-title mb-4">Head Office</h5>
-              <p className="office__info">123 Zindabazar, Sylhet, Bangladesh</p>
-              <p className="office__info">Phone: +0995345875365</p>
+              <p className="office__info">H-2,Sipcot It Park,OMR,Siruseri,Chennai-603103</p>
+              <p className="office__info">Phone: +044 4748 0000</p>
 
-              <p className="office__info">Email: muhib5532@gmail.com</p>
+              <p className="office__info">Email: srdcars@gmail.com</p>
 
-              <p className="office__info">Office Time: 10am - 7pm</p>
+              <p className="office__info">Office Time: 6am - 7pm</p>
             </div>
           </Col>
 
@@ -97,8 +97,7 @@ const Footer = () => {
           <Col lg="12">
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
-                <i class="ri-copyright-line"></i>Copyright {year}, Developed by
-                Muhibur Rahman. All rights reserved.
+                <i class="ri-copyright-line"></i>Copyright by Changepond Technology Pvt Ltd. All rights reserved.
               </p>
             </div>
           </Col>
