@@ -18,37 +18,31 @@ const AboutSection = ({ aboutClass }) => {
           <Col lg="6" md="6">
             <div className="about__section-content">
               <h4 className="section__subtitle">About Us</h4>
-              <h2 className="section__title">Welcome to car rent service</h2>
+              <h2 className="section__title">Welcome to SRD Car-Rentals</h2>
               <p className="section__description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatum blanditiis esse accusantium dignissimos labore
-                laborum. Veniam, corporis mollitia temporibus, in quaerat vero
-                deleniti amet dolorem repudiandae, pariatur nam dolore! Impedit
-                neque sit ad temporibus quam similique dolor ipsam praesentium
-                sunt.
+              At SRD Car Rentals and Services, we're passionate about providing exceptional
+              travel experiences that exceed our customers' expectations. Our journey began
+              with a simple yet ambitious goal: to make car rentals easy, convenient, and
+              affordable for everyone.
               </p>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit
-                  amet.
+                  <i class="ri-checkbox-circle-line"></i> Customer-centricity
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit
-                  amet.
+                  <i class="ri-checkbox-circle-line"></i> Quality and reliability
                 </p>
               </div>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit
-                  amet.
+                  <i class="ri-checkbox-circle-line"></i> Innovation
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit
-                  amet.
+                  <i class="ri-checkbox-circle-line"></i> Sustainability
                 </p>
               </div>
             </div>
