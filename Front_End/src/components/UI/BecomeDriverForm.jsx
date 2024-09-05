@@ -25,7 +25,8 @@ const BecomeDriverForm = () => {
     e.preventDefault(); // Prevent default form submission
   
     try {
-      const response = await fetch('http://127.0.0.1:8000/driver/register-driver/', {
+      // const response = await fetch('http://127.0.0.1:8000/driver/register-driver/', {
+      const response = await fetch('http://172.17.7.126:8000/driver/register-driver/', {
         method: 'POST', // Ensure POST method is used
         headers: {
           'Content-Type': 'application/json',

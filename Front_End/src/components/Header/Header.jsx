@@ -41,22 +41,22 @@ const Header = () => {
           <Row>
             <Col lg="6" md="6" sm="6">
               <div className="header__top__left">
-                <span>Need Help?</span>
+                {/* <span>Need Help?</span>
                 <span className="header__top__help">
                   <i class="ri-phone-fill"></i> +1-202-555-0149
-                </span>
+                </span> */}
               </div>
             </Col>
 
             <Col lg="6" md="6" sm="6">
               <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
                 <Link to="/Signin" className=" d-flex align-items-center gap-1">
-                  <i class="ri-login-circle-line"></i> Login
+                  <i class="ri-login-circle-line"></i> Signin/SignUp
                 </Link>
 
-                <Link to="#" className=" d-flex align-items-center gap-1">
+                {/* <Link to="#" className=" d-flex align-items-center gap-1">
                   <i class="ri-user-line"></i> Register
-                </Link>
+                </Link> */}
               </div>
             </Col>
           </Row>
@@ -86,8 +86,8 @@ const Header = () => {
                   <i class="ri-earth-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Bangladesh</h4>
-                  <h6>Sylhet City, Bangladesh</h6>
+                  <h4>India</h4>
+                  <h6>Chennai City, India</h6>
                 </div>
               </div>
             </Col>
@@ -98,7 +98,7 @@ const Header = () => {
                   <i class="ri-time-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Sunday to Friday</h4>
+                  <h4>Sunday to Saturday</h4>
                   <h6>10am - 7pm</h6>
                 </div>
               </div>
@@ -145,14 +145,14 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="nav__right">
+            {/* <div className="nav__right">
               <div className="search__box">
                 <input type="text" placeholder="Search" />
                 <span>
                   <i class="ri-search-line"></i>
                 </span>
               </div>
-            </div>
+            </div> */}
           </div>
         </Container>
       </div>

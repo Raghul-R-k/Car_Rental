@@ -3,7 +3,9 @@ import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 import CarItem from "../components/UI/CarItem";
+import VehicleCard from "../components/UI/CarTypes";
 import carData from "../assets/data/carData";
+import vehicles from "../assets/data/carData";
 
 const CarListing = () => {
   return (
@@ -27,8 +29,13 @@ const CarListing = () => {
               </div>
             </Col>
 
-            {carData.map((item) => (
+            {/* {carData.map((item) => (
               <CarItem item={item} key={item.id} />
+            ))} */}
+
+            {/* Render VehicleCard for each vehicle */}
+            {vehicles.map((item) => (
+              <VehicleCard item={item} key={item.id} />
             ))}
           </Row>
         </Container>
