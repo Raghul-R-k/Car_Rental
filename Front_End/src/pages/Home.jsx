@@ -54,7 +54,7 @@ const Home = () => {
       </section>
       {/* =========== car offer section ============= */}
       <section>
-        <Container>
+        {/* <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
               <h6 className="section__subtitle">Come with</h6>
@@ -65,13 +65,13 @@ const Home = () => {
               <CarItem item={item} key={item.id} />
             ))}
           </Row>
-        </Container>
+        </Container> */}
       </section>
       {/* =========== become a driver section ============ */}
       <BecomeDriverSection />
 
       {/* =========== testimonial section =========== */}
-      <section>
+      {/* <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-4 text-center">
@@ -82,7 +82,7 @@ const Home = () => {
             <Testimonial />
           </Row>
         </Container>
-      </section>
+      </section> */}
 
       {/* =============== blog section =========== */}
       <section>
