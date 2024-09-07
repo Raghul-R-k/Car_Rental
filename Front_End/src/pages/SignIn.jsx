@@ -31,7 +31,7 @@ const SlidingAuth = () => {
           minHeight: '480px',
           transition: 'all 0.6s ease-in-out',
         }}
-        // className={isSignIn ? '' : 'right-panel-active'}
+        className={isSignIn ? '' : 'right-panel-active'}
       >
         <div
           style={{
