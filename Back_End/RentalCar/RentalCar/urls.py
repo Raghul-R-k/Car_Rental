@@ -13,6 +13,10 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
+
+
+
 from django.contrib import admin
 from django.urls import path,include
 from django.conf import settings
@@ -47,7 +51,7 @@ urlpatterns = [
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
     path('blogs/',include('Blog.urls') ),
     path('driver/',include('DriverApp.urls') ),
-    path("admin/",include('AdminApp.urls')),
+    path("cars/",include('car_booking.urls')),
     path('api/token/',swagger_auto_schema(method='post',security=[])(TokenObtainPairView.as_view()),name='token_obtain_pair'),
     path('api/token/refresh/',swagger_auto_schema(method='post',security=[])(TokenRefreshView.as_view()),name='token_refresh')
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

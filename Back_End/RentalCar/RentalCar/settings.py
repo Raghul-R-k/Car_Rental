@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-*$1o=1t226!hscry1*)1en)41@h*+giqqw^u^3=!+++u=9u08o
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+ 
 ALLOWED_HOSTS = []
 
 
@@ -46,7 +46,8 @@ INSTALLED_APPS = [
     'drf_yasg',
     'rest_framework',
     'rest_framework_simplejwt',
-    'corsheaders'
+    'corsheaders',
+    'car_booking',
 ]
 
 MIDDLEWARE = [
@@ -57,7 +58,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
+    'corsheaders.middleware.CorsMiddleware', 
     'django.middleware.common.CommonMiddleware',
 ]
 

@@ -19,10 +19,8 @@ const BecomeDriverSection = () => {
               Do You Want to Earn With Us? So Don't Be Late
             </h2>
 
-            <button className="btn become__driver-btn mt-4">
-            <Link to="/DriverForm">
-                Become a Driver
-                </Link>
+            <button className="btn reserve__btn mt-4">
+              <Link to="/DriverForm">Become A Driver</Link>
             </button>
           </Col>
         </Row>

@@ -457,6 +457,7 @@ const SlidingAuth = () => {
           transition: 'all 0.6s ease-in-out',
           display: 'flex',
         }}
+        className={isSignIn ? '' : 'right-panel-active'}
       >
         {/* Sign Up Form */}
         <div
