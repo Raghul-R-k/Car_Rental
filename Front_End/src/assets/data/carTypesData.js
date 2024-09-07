@@ -1,24 +1,38 @@
+import img01 from "../all-images/cars-img/nissan-offer.png";
+import img02 from "../all-images/cars-img/offer-toyota.png";
+import img03 from "../all-images/cars-img/bmw-offer.png";
+import img04 from "../all-images/cars-img/nissan-offer.png";
+import img05 from "../all-images/cars-img/offer-toyota.png";
+import img06 from "../all-images/cars-img/mercedes-offer.png";
+import img07 from "../all-images/cars-img/toyota-offer-2.png";
+import img08 from "../all-images/cars-img/mercedes-offer.png";
+import img09 from "../all-images/cars-img/mercedes-offer.png";
+import img10 from "../all-images/cars-img/mercedes-offer.png";
 const vehicles = [
     {
       id: 1,
+      imgUrl: img01,
       type: 'Compact Cars',
       description: 'Small and fuel-efficient cars suitable for city driving and short trips.',
       examples: 'Toyota Corolla, Honda Civic, Ford Focus'
     },
     {
       id: 2,
+      imgUrl: img02,
       type: 'Sedans',
       description: 'Mid-size to full-size cars with comfortable seating and ample trunk space.',
       examples: 'Toyota Camry, Honda Accord, Nissan Altima'
     },
     {
       id: 3,
+      imgUrl: img03,
       type: 'SUVs (Sport Utility Vehicles)',
       description: 'Larger vehicles with higher ground clearance, suitable for family trips or off-road driving.',
       examples: 'Toyota RAV4, Ford Escape, Honda CR-V'
     },
     {
       id: 4,
+      imgUrl: img04,
       type: 'Vans',
       description: 'Vehicles with extended seating capacity, suitable for transporting larger groups of people or cargo.',
       examples: 'Dodge Grand Caravan, Chrysler Pacifica, Toyota Sienna'

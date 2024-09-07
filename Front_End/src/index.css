@@ -95,3 +95,25 @@ section {
     font-size: 1.1rem;
   }
 }
+
+
+input {
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+form {
+  max-height: 450px; /* Adjust as needed */
+  overflow: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
