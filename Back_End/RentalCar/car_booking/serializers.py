@@ -11,10 +11,12 @@ class CarSerializer(serializers.ModelSerializer):
         model = Car
         fields = '__all__'
 
+
+
 class BookingSerializer(serializers.ModelSerializer):
     class Meta:
         model = Booking
-        fields = ['booking_id', 'user', 'car', 'booking_date', 'pickup_date', 'return_date', 'total_price']
+        fields = ['booking_id', 'user', 'car', 'booking_date', 'pickup_date', 'return_date']
 
     def create(self, validated_data):
         booking = Booking.objects.create(**validated_data)

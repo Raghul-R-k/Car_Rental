@@ -10,6 +10,7 @@ from .views import (
     AvailabilityViewSet
 )
 
+
 router = DefaultRouter()
 router.register('cars', CarViewSet, basename='car')
 router.register('users', UserViewSet, basename='user')

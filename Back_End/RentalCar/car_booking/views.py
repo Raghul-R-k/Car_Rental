@@ -10,8 +10,8 @@ from .serializers import UserSerializer, CarSerializer, BookingSerializer, Admin
 class UserViewSet(ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
-    authentication_classes = [JWTAuthentication]
-    permission_classes = [permissions.IsAuthenticated]
+    # authentication_classes = [JWTAuthentication]
+    # permission_classes = [permissions.IsAuthenticated]
 
     def get_serializer_class(self):
         return UserSerializer
@@ -117,8 +117,8 @@ class UserViewSet(ModelViewSet):
 class CarViewSet(ModelViewSet):
     queryset = Car.objects.all()
     serializer_class = CarSerializer
-    authentication_classes = [JWTAuthentication]
-    permission_classes = [permissions.IsAuthenticated]
+    # authentication_classes = [JWTAuthentication]
+    # permission_classes = [permissions.IsAuthenticated]
 
     def get_serializer_class(self):
         return CarSerializer
@@ -221,11 +221,21 @@ class CarViewSet(ModelViewSet):
                 'status': APIException.status_code
             })
 
+from rest_framework import viewsets
+from .models import Car
+from .serializers import CarSerializer
+
+class CarViewSet(viewsets.ModelViewSet):
+    queryset = Car.objects.all()
+    serializer_class = CarSerializer
+
+
+
 class AdminViewSet(ModelViewSet):
     queryset = Admin.objects.all()
     serializer_class = AdminSerializer
-    authentication_classes = [JWTAuthentication]
-    permission_classes = [permissions.IsAuthenticated]
+    # authentication_classes = [JWTAuthentication]
+    # permission_classes = [permissions.IsAuthenticated]
 
     def get_serializer_class(self):
         return AdminSerializer
@@ -332,8 +342,8 @@ class AdminViewSet(ModelViewSet):
 class BookingViewSet(ModelViewSet):
     queryset = Booking.objects.all()
     serializer_class = BookingSerializer
-    authentication_classes = [JWTAuthentication]
-    permission_classes = [permissions.IsAuthenticated]
+    # authentication_classes = [JWTAuthentication]
+    # permission_classes = [permissions.IsAuthenticated]
 
     def get_serializer_class(self):
         return BookingSerializer
@@ -566,8 +576,8 @@ class BookingViewSet(ModelViewSet):
 class CancellationViewSet(ModelViewSet):
     queryset = Cancellation.objects.all()
     serializer_class = CancellationSerializer
-    authentication_classes = [JWTAuthentication]
-    permission_classes = [permissions.IsAuthenticated]
+    # authentication_classes = [JWTAuthentication]
+    # permission_classes = [permissions.IsAuthenticated]
 
     def get_serializer_class(self):
         return CancellationSerializer
@@ -719,8 +729,8 @@ class CancellationViewSet(ModelViewSet):
 class AvailabilityViewSet(ModelViewSet):
     queryset = Availability.objects.all()
     serializer_class = AvailabilitySerializer
-    authentication_classes = [JWTAuthentication]
-    permission_classes = [permissions.IsAuthenticated]
+    # authentication_classes = [JWTAuthentication]
+    # permission_classes = [permissions.IsAuthenticated]
 
     def get_serializer_class(self):
         return AvailabilitySerializer

@@ -12,6 +12,9 @@ import Contact from "../pages/Contact";
 import SlidingAuth from "../pages/SignIn";
 import BecomeDriverForm from "../components/UI/BecomeDriverForm";
 import CarListing from "../pages/CarTypes";
+import CarForm from "../pages/CarForm";
+import CarCard from "../pages/carcards";
+import Userdash from "../pages/userdashboard";
 
 const Routers = () => {
   return (
@@ -21,14 +24,19 @@ const Routers = () => {
       <Route path="/DriverForm" element={<BecomeDriverForm />} />
       <Route path="/about" element={<About />} />
       <Route path="/cars" element={<CarListing />} />
-      <Route path="/cars/:slug" element={<CarDetails />} />
+      <Route path="/cars/:id" element={<CarDetails />} />
       <Route path="/blogs" element={<Blog />} />
+      <Route path="/user" element={<Userdash />} />
       <Route path="/blogs/:slug" element={<BlogDetails />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/Signin" element={<SlidingAuth />} />
       <Route path="/carslist" element={<CarsList />} />
+      <Route path="/carform" element={<CarForm />} />
+      <Route path="/carcards" element={<CarCard />} />
       <Route path="*" element={<NotFound />} />
       <Route path="*" element={<NotFound />} />
+      {/* <Route path="/" element={<CarListing />} />
+      <Route path="/cars/:id" element={<CarDetails />} /> */}
       
     </Routes>
   );

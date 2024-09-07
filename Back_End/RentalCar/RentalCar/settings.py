@@ -236,5 +236,5 @@ CORS_ALLOW_METHODS = [
     'OPTIONS',
 ]
 
-# ALLOWED_HOSTS = ["172.17.7.126","localhost"]
-ALLOWED_HOSTS = ["127.0.0.1","localhost"]
+ALLOWED_HOSTS = ["172.17.7.126","localhost","127.0.0.1"]
+# ALLOWED_HOSTS = ["127.0.0.1","localhost"]

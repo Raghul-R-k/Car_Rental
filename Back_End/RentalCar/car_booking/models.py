@@ -51,7 +51,7 @@ class Booking(models.Model):
     booking_date = models.DateField()
     pickup_date = models.DateField()
     return_date = models.DateField()
-    total_price = models.DecimalField(max_digits=10, decimal_places=2)
+    # total_price = models.DecimalField(max_digits=10, decimal_places=2)
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='active')
 
     def __str__(self):
